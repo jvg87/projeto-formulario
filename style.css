@@ -3,12 +3,96 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: #33335e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(144, 144, 223), rgb(32, 33, 54));
     color: #f5f6f7;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#description{
+    text-align: center;
+    font-style: italic;
+    padding: 20px 0;
+   
+}
+
+form {
+    background-color: #1b1b32;
+    padding-top: 20px;
+    max-width: 700px;
+    min-width: 300px;
+    width: 70v;
+    margin: auto;
+    border-radius: 1%;
+}
+
+form > p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
 }
 
 label{
     display: block;
-    margin: 1em;
+    
 }
+
+#name-label, #email-label, #number-label, #select-label{
+    padding: 10px 10px 10px 60px;
+       
+}
+
+#name, #email, #number{
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin-top: 10px
+    
+}
+
+#dropdown{
+    margin-bottom: 10px;
+    margin-left: 60px;
+    width: 82%;
+    height: 35px;
+      
+}
+
+#definitely, #maybe, #not-sure{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+#front-end, #back-end, #data, #challenges, #videos{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+#suggestions{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    height: 120px;
+    width: 82%;
+}
+
+#submit{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    height: 50px;
+    width: 82%;
+    background-color: rgb(32, 185, 32);
+    color: white;
+    font-weight: bold;
+    border: none;
+    
+}
+
